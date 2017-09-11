@@ -10,7 +10,7 @@
     (if (= (clojure.string/index-of query ")") nil) (def result false) ())
     result
     )
-  )
+  ) 
 
 (defn get-facts-from-database
   "Obtiene un vector con todos los facts trimeados y sin punto"
